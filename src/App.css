@@ -10,7 +10,7 @@
   --background--app: #202c33;
   --input-bg: #f6f6f6;
 }
-body: {
+body {
   background-color: var(--background-global);
 }
 .App {
