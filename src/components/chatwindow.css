@@ -1,0 +1,107 @@
+.chatWindow {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.chatWindow--header {
+  height: 60px;
+  border-bottom: 1px solid #2c3941;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.chatWindow--headerinfo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.chatWindow--avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.chatWindow--name {
+  font-size: 17px;
+  color: #fff;
+}
+.chatWindow--headerbuttons {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+.chatWindow--btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all ease 0.3s;
+}
+.chatWindow--body {
+  padding: 20px 30px;
+  flex: 1;
+  overflow-y: auto;
+  background-color: #0b141a;
+  background-position: center;
+  background-image: url("https://camo.githubusercontent.com/854a93c27d64274c4f8f5a0b6ec36ee1d053cfcd934eac6c63bed9eaef9764bd/68747470733a2f2f7765622e77686174736170702e636f6d2f696d672f62672d636861742d74696c652d6461726b5f61346265353132653731393562366237333364393131306234303866303735642e706e67");
+  background-color: rgba(11, 20, 26, 0.87);
+  background-blend-mode: color;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.2);
+}
+.chatWindow--body::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+.chatWindow--body::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.chatWindow--footer {
+  height: 62px;
+  display: flex;
+  align-items: center;
+}
+.chatWindow--pre {
+  display: flex;
+  margin: 0 15px;
+}
+.chatWindow--inputarea {
+  flex: 1;
+}
+.chatWindow--pos {
+  display: flex;
+  margin: 0 15px;
+}
+.chatWindow--input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: #24282b;
+  border-radius: 20px;
+  font-size: 15;
+  color: #fff;
+  padding-left: 15px;
+}
+aside.EmojiPickerReact.epr-main {
+  width: auto !important;
+  border-color: transparent !important;
+  background: none !important;
+}
+.epr-emoji-category-label {
+  background-color: #24282b !important;
+}
+.chatWindow--emojiarea {
+  height: 400px;
+  overflow-y: hidden;
+  transition: all ease 0.3s;
+}
+.Flex.epr-preview.FlexRow {
+  border-top: none !important;
+}

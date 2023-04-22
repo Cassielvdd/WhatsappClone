@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Raleway, sans-serif;
+}
+
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2015/02/02/11/09/office-620822_960_720.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login {
+  text-align: center;
+}
+.title {
+  margin-bottom: 15px;
+  color: white;
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+button:hover {
+  transform: scale(1.1);
+}
+.text {
+  font-size: 14px;
+  margin-left: 5px;
+}
+.span-1 {
+}

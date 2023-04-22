@@ -1,0 +1,32 @@
+.messageLine {
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.messageItem {
+  background-color: #fff;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 3px;
+  max-width: 70%;
+  white-space: pre-wrap;
+}
+.messageText {
+  font-size: 14px;
+  color: #d0dedd;
+  margin: 5px 40px 5px 5px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.messageDate {
+  font-size: 11px;
+  color: #999;
+  margin-right: 5px;
+  text-align: right;
+  height: 15px;
+  margin-top: -15px;
+}
